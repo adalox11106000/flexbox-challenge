@@ -1,0 +1,43 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 0; */
+
+}
+
+nav div {
+  width: 10%;
+  /* height: 100%; */
+  background-color:green;
+  text-align: center;
+  /* margin: 10px 0; */
+  padding: 10px 0;
+}
+
+
+nav h1 {
+  width: 80%;
+  margin: 30px auto;
+}
+
+nav ul {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  width:80%;
+}
