@@ -42,6 +42,10 @@ nav ul li {
   justify-content: space-around;
 }
 
+nav ul li:hover {
+  color: rgb(255, 115, 0);
+  background-color: yellow;
+}
 
 main {
   height: 800px;
